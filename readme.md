@@ -4,9 +4,12 @@ That's why this repo has some tools to avoid any [style guide](https://tc.tugraz
 
 - `clang-format` (https://clang.llvm.org/docs/ClangFormat.html)
   can autoformat the code, e.g. putting braces on the correct line, having max. 120 characters per line
+
   _rules are defined in the `.clang-format` file._
+
 - `clang-tidy` (https://clang.llvm.org/extra/clang-tidy/)
   can point out other issues in the code that cannot easily be auto-fixed e.g. having constants named in UPPERCASE etc.
+
   _rules are defined in the `.clang-tidy` file._
 
 Normally these tools should work out of the box if the [C++ extension](https://code.visualstudio.com/docs/languages/cpp) is installed.
