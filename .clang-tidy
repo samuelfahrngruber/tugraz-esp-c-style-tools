@@ -1,0 +1,15 @@
+Checks: 'readability-identifier-naming,readability-braces-around-statements'
+CheckOptions:
+  - { key: readability-identifier-naming.FunctionCase, value: camelBack }
+  - { key: readability-identifier-naming.MacroDefinitionCase, value: UPPER_CASE }
+  - { key: readability-identifier-naming.LocalVariableCase, value: lower_case }
+
+# casing options:
+#
+# lower_case
+# UPPER_CASE
+# camelBack
+# CamelCase
+# camel_Snake_Back
+# Camel_Snake_Case
+# aNy_CasE

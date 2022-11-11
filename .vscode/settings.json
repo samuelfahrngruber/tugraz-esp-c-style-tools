@@ -1,0 +1,6 @@
+{
+  "clang.cflags": ["-Wall", "-Wextra", "-pedantic", "-std=c17", "-g"],
+  "C_Cpp.codeAnalysis.runAutomatically": true,
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "editor.formatOnSave": true
+}
