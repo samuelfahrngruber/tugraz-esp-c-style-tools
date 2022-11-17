@@ -1,12 +1,22 @@
-Checks: "readability-identifier-naming,readability-braces-around-statements,readability-function-size"
+Checks:  "fuchsia-trailing-return,
+          google-objc-function-naming,
+          google-readability-casting,
+          readability-identifier-naming,
+          readability-function-size,
+          readability-duplicate-include,
+          readability-else-after-return,
+          readability-isolate-declaration,
+          readability-misplaced-array-index,
+          readability-misleading-indentation,
+          readability-suspicious-call-argument,
+          clang-analyzer-core.DynamicTypePropagation"
 CheckOptions:
   - { key: readability-identifier-naming.FunctionCase, value: camelBack }
-  - {
-      key: readability-identifier-naming.MacroDefinitionCase,
-      value: UPPER_CASE,
-    }
+  - { key: readability-identifier-naming.MacroDefinitionCase, value: UPPER_CASE }
   - { key: readability-identifier-naming.LocalVariableCase, value: lower_case }
   - { key: readability-function-size.LineThreshold, value: 80 }
+
+
 # casing options:
 #
 # lower_case

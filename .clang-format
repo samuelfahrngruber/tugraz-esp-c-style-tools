@@ -7,3 +7,11 @@ AllowShortFunctionsOnASingleLine: Empty
 SeparateDefinitionBlocks: Always
 BinPackParameters: false
 BinPackArguments : false
+AlignConsecutiveMacros: AcrossEmptyLines
+AllowAllArgumentsOnNextLine: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeSquareBrackets: false
+SpacesBeforeTrailingComments: 4
+
+
+
