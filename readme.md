@@ -13,12 +13,10 @@ That's why this repo has some tools to avoid any [style guide](https://tc.tugraz
   _rules are defined in the `.clang-tidy` file._
 
 - `c-snippets`([style guide](https://tc.tugraz.at/main/mod/page/view.php?id=55770) conform)
-things like file- or function-header comment. For fast commenting your code
-To use this look in the `C_snippets.json` file for more information.
+contains file- and function-header comment snippets, for fast commenting your code
+To use this, look in the `C_snippets.json` file for more information.
 
-Normally these tools should work out of the box in VSCode/Codium if the [C++ extension](https://code.visualstudio.com/docs/languages/cpp) is installed.
-
-In the vscode settings file (`.vscode/settings.json`) is the config to automatically run `clang-tidy` code analysis (this will point out problems in your c file by underlining it red) and use `clang-format` automatically when saving the file, so it is never formatted wrongly. Also it adds the `clang` flags to show warnings etc.
+ >Normally these tools should work out of the box in VSCode/Codium if the [C++ extension](https://code.visualstudio.com/docs/languages/cpp) is installed.
 
 This is not complete yet, and I did not test it a lot either - it should just make our life easier - if you find something in the [style guide](https://tc.tugraz.at/main/mod/page/view.php?id=55770) that I did not consider in the rule files, please add a PR and help your fellow students, thanks
 
@@ -28,9 +26,9 @@ This is not complete yet, and I did not test it a lot either - it should just ma
 
 - ### C/C++ extension (https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools):
 
-    #### 2 Options to install:
+  #### There are two  options to install it:
 
-    - search for it directly in the `VSCode Extension Manager`
+    - search for it directly in the `VSCode Extension Manager`</br>
     
     - or `Download the VSIX` file and install it manually by opening the VSCode-commandline [Shift]+[Strg]+[P] and search for "VSIX". Select the "Install from VSIX...", and now you can navigate in the file explorer to the VSIX-file to install it.
 
@@ -42,13 +40,13 @@ This is not complete yet, and I did not test it a lot either - it should just ma
 
 ## 2.) Cloning the tools
 
-direct to your `ESP-folder` via Terminal and then clone the repository:
+- direct to your `ESP-folder` via Terminal and then clone the repository:
 
-    git clone https://github.com/samuelfahrngruber/tugraz-esp-c-style-tools.git
+      git clone https://github.com/samuelfahrngruber/tugraz-esp-c-style-tools.git
 
-after doing this drag all the files from `tugraz-esp-c-style-tools` into the `ESP-folder`.
+- after doing this drag all the files from `tugraz-esp-c-style-tools` into the `ESP-folder`.
 
-## 3.) Setting up the settings.json in VSCode
+## 3.) Editing the settings.json in VSCode
 
 - To open up the global settings of VSCode: </br>`File ---> Settings ---> file-icon (at the top right)`
 
