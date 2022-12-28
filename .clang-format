@@ -11,4 +11,5 @@ AllowAllArgumentsOnNextLine: true
 SpaceBeforeAssignmentOperators: true
 SpaceBeforeSquareBrackets: false
 SpacesBeforeTrailingComments: 4
+PointerAlignment: Left
 
