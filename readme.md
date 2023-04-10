@@ -1,3 +1,7 @@
+**⚠️⚠️⚠️ Check out [Sol000's fork](https://github.com/Sol000/tugraz-c-cpp-style-tools). It's maintained more frequently and also has C++ styles for OOP1. ⚠️⚠️⚠️**
+
+---
+
 # Manual formatting is annoying
 
 That's why this repo has some tools to avoid any [style guide](https://tc.tugraz.at/main/mod/page/view.php?id=55770) violations in C for the ESP Assignments.
